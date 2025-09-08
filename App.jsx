@@ -10,7 +10,7 @@ import { Usfxt } from './conditional/useefect/usfxt';
 import { Fetch } from './conditional/useefect/fth/fetch';
 import { Usref } from './conditional/useefect/fth/ref/usref';
 import { Darkmood } from './conditional/useefect/colorchange/darkmood';
-
+import Add from './todo/todo';
 
 const App = () => {
 
@@ -34,7 +34,8 @@ const App = () => {
 // let num=-9
   return (
     <div >
-      <Darkmood/>
+      <Add />
+      {/* <Darkmood/> */}
       {/* {<Usref/>} */}
       {/* <Fetch /> */}
       {/* <Usfxt /> */}
