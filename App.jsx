@@ -11,30 +11,24 @@ import { Fetch } from './conditional/useefect/fth/fetch';
 import { Usref } from './conditional/useefect/fth/ref/usref';
 import { Darkmood } from './conditional/useefect/colorchange/darkmood';
 import Add from './todo/todo';
-
+// import { Prop } from './props/prop';
+import { Count } from './count/count';
+import { Todoapp } from './todo2/Todoapp';
+// import { Application } from './todo2/Todoapp';
 const App = () => {
 
-  // let num=0
-  // const Check=()=>{
-  //   if (num>0){
-  //     return <h1>positive number</h1>
-  //   }
-  //   else if(num<0){
-  //     return <h1>negative number</h1>
-  //   }
-  //   else{
-  //     return <h1>zero</h1>
-  //   }
-  // }
 
-  // const states=[{name:"kerala",language:"malayalam"},
-  //   {name:"tamilnadu",language:"arabi"},
-  //   {name:"goa",language:"hindi"}
-  // ]
-// let num=-9
   return (
     <div >
-      <Add />
+
+    {<Todoapp/>}
+    {/* {<Appp/>} */}
+      {/* {<Count/>} */}
+
+      {/* <Parent/> */}
+      {/* <Prop/> */}
+      {/* {<Application />} */}
+      {/* <Add /> */}
       {/* <Darkmood/> */}
       {/* {<Usref/>} */}
       {/* <Fetch /> */}
