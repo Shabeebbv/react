@@ -1,7 +1,10 @@
-.container{
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+.container {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
 }
-.list{
-    margin-top: 30px;
+.list {
+  margin-top: 30px;
+}
+.values button {
+  margin-left: 30px;
 }

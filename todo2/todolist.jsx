@@ -1,11 +1,12 @@
 import React from 'react'
+import './todo.css'
 
-export const Todolist = ({tasks =[]}) => {
+export const Todolist = ({tasks =[],dlt}) => {
   return (
     <>
-        <div>
-            {tasks.map((value)=>( <div><p>{value}</p> 
-                 <button>DELETE</button></div>
+        <div className='values'>
+            {tasks.map((value,index)=>( <div key={index}><p>{value}
+                 <button onClick={()=> dlt(index)}>DELETE</button></p> </div>
 ))}
          </div>
 
