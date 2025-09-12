@@ -23,7 +23,7 @@ const App = () => {
     <div >
       {/* <Todo3/>/ */}
 
-    {/* {<Todoapp />} */}
+    {<Todoapp />}
     {/* {<Appp/>} */}
       {/* {<Count/>} */}
 
@@ -31,7 +31,7 @@ const App = () => {
       {/* <Prop/> */}
       {/* {<Application />} */}
       {/* <Add /> */}
-      <Darkmood/>
+      {/* <Darkmood/> */}
       {/* {<Usref/>} */}
       {/* <Fetch /> */}
       {/* <Usfxt /> */}
