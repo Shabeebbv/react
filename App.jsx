@@ -3,7 +3,7 @@ import React from 'react'
 // import Header from './sample' 
 // import { Props } from '../props';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Key from './keys/key';
+// import Key from './keys/key';
 // import Mainn from './conditional/res';
 // import Header from './sample/sample';
 import { Usfxt } from './conditional/useefect/usfxt';
@@ -14,14 +14,16 @@ import Add from './todo/todo';
 // import { Prop } from './props/prop';
 import { Count } from './count/count';
 import { Todoapp } from './todo2/Todoapp';
+import { Todo3 } from './todo3/Todo3';
 // import { Application } from './todo2/Todoapp';
 const App = () => {
 
 
   return (
     <div >
+      {/* <Todo3/>/ */}
 
-    {<Todoapp/>}
+    {/* {<Todoapp />} */}
     {/* {<Appp/>} */}
       {/* {<Count/>} */}
 
@@ -29,7 +31,7 @@ const App = () => {
       {/* <Prop/> */}
       {/* {<Application />} */}
       {/* <Add /> */}
-      {/* <Darkmood/> */}
+      <Darkmood/>
       {/* {<Usref/>} */}
       {/* <Fetch /> */}
       {/* <Usfxt /> */}

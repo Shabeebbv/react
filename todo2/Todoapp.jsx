@@ -12,7 +12,7 @@ export const Todoapp = () => {
     <Addtask/>
     </div>
     <div className='list'>
-    <Todolist/>
+    <Todolist/> 
       </div>
       </div>
     </>
